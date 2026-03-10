@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jagruti Photographer</title>
+
+    <meta name="description" content="Professional photographer specializing in nature, portrait and travel photography.">
+
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+    <div class="logo">Jagruti</div>
+
+    <div class="menu-toggle">☰</div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Dark Mode Button -->
+    <button id="theme-toggle">🌙</button>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+    <div class="slideshow">
+        <img src="https://picsum.photos/id/1015/1200/500" class="slide active">
+        <img src="https://picsum.photos/id/1016/1200/500" class="slide">
+        <img src="https://picsum.photos/id/1018/1200/500" class="slide">
+    </div>
+
+    <div class="profile">
+        <img src="https://picsum.photos/200" alt="Profile">
+        <h2>Jagruti Photography</h2>
+        <p>Nature | Portrait | Travel</p>
+    </div>
+</header>
+
+<!-- ================= GALLERY ================= -->
+<section id="gallery" class="gallery fade-in">
+    <h2>Photo Gallery</h2>
+    <div class="grid">
+        <img src="https://picsum.photos/id/1020/400/300">
+        <img src="https://picsum.photos/id/1024/400/300">
+        <img src="https://picsum.photos/id/1025/400/300">
+        <img src="https://picsum.photos/id/1035/400/300">
+        <img src="https://picsum.photos/id/1040/400/300">
+        <img src="https://picsum.photos/id/1050/400/300">
+        <img src="https://picsum.photos/id/1060/400/300">
+        <img src="https://picsum.photos/id/1070/400/300">
+       <img src=" https://stock.adobe.com/search?k=nature">
+    </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox">
+    <span id="close">&times;</span>
+    <img id="lightbox-img">
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="about fade-in">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate photographer specializing in nature, portrait and travel photography.
+        Capturing moments and turning them into beautiful memories is my passion.
+    </p>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact fade-in">
+    <h2>Contact Me</h2>
+
+    <div class="social">
+        <h3>Follow Me</h3>
+        <p>
+            <a href="#">Instagram</a> |
+            <a href="#">Facebook</a> |
+            <a href="mailto:your@email.com">Email</a>
+        </p>
+    </div>
+
+    <form>
+        <input type="text" placeholder="Your Name" required><br><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+        <textarea placeholder="Your Address" required></textarea><br><br>
+        <textarea placeholder="Your Message" required></textarea><br><br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/919876543210" class="whatsapp" target="_blank">💬</a>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <p>© 2026 Jagruti Photography | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
